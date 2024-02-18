@@ -5,6 +5,7 @@ metadata:
 spec:
   containers:
   - name: hello-container
+  namespace: my-namespace
     image: nginx
     ports:
      - containerPort: 80
