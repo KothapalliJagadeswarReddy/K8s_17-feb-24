@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-    name: maha-pod
+    name: jagan-pod
 spec:
   containers:
-  - name: maha-container
+  - name: jagan-container
     image: nginx
     ports:
      - containerPort: 80
