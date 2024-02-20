@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-    name: hello-pod
+    name: jgan-pod
 spec:
   containers:
-  - name: hello-container
+  - name: jagan-container
     image: nginx
     ports:
      - containerPort: 80
