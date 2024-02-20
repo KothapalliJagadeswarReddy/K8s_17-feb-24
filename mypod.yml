@@ -4,7 +4,7 @@ metadata:
     name: jagan-pod
 spec:
   containers:
-  - name: jagan-containers
+  - name: jagan-container
     image: nginx
     ports:
      - containerPort: 80
